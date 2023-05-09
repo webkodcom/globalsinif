@@ -1,0 +1,12 @@
+#print("Hacı Bektaş Ortaokulu")
+#deger1 = 34
+#deger2 = 23
+#print(deger1)
+#print(deger1 + deger2)
+print("Lütfen bir sayı giriniz")
+sayi = int(input("Sayı?"))
+#print("Girdiğiniz sayı =" + sayi)
+if (sayi % 2) == 0 :
+    print("Sayı çifttir")
+else:
+    print("sayı tektir")
