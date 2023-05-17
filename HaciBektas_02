@@ -1,0 +1,18 @@
+#Sayı Tahmin Oyunu
+import random
+print(' Aklından 0 ile 100 arasında bir sayı tut')
+print('Yukarı için y , aşağı için a gir')
+print('bilirsem de e gir')
+max = 100
+min = 0
+while True:
+    tahmin = random.randint(min, max)
+    print(tahmin)
+    komut=input('Komut Gir=')
+    if (komut == 'y') :
+        min= tahmin
+    elif (komut == 'a'):
+        max= tahmin
+    elif (komut == 'e'):
+        print('Sayıyı Bildim!')
+        break
